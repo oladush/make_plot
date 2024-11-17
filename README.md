@@ -51,12 +51,12 @@ python make_plot.py [OPTIONS]
 ### Example
 To generate a plot from `data.txt`, display it interactively, and save it as `output.png`:
 ```
-python plot_script.py -i data.txt -o output.png
+python3 make_plot.py -i data.txt -o output.png
 ```
 
 To generate a plot with custom labels and title:
 ```
-python plot_script.py -i data.txt -t "Custom Title" -x "Time (s)" -y "Value"
+python3 make_plot.py -i data.txt -t "Custom Title" -x "Time (s)" -y "Value"
 ```
 
 
